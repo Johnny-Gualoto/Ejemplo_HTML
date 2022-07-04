@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+.menu{
+  background-color: yellow;
+}
+
+.lista{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10%;
+  align-items: center;
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
